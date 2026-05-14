@@ -19,20 +19,20 @@ End-to-end workflow for developing a new feature from requirement to merged code
 
 ### 3. Backend First (API-First Approach)
 - [ ] Update Prisma schema if new models/fields needed
-  - Load skill: [Database Migration](../skills/database-migration.md)
+  - Load skill: [Database Migration](../workflows/database-migration.md)
   - Use tool: [Database Migrator](../tools/db-migrator.md)
 - [ ] Create or update types in `backend/src/types/`
 - [ ] Implement service layer with business logic
-  - Load skill: [Backend Development](../skills/backend-development.md)
+  - Load skill: [Backend Development](../workflows/backend-development.md)
 - [ ] Implement controller layer
 - [ ] Register routes
 - [ ] Write API tests
-  - Load skill: [Testing](../skills/testing.md)
+  - Load skill: [Testing](../workflows/testing.md)
   - Use tool: [Test Runner](../tools/test-runner.md)
 
 ### 4. Frontend Implementation
 - [ ] Define TypeScript types in `frontend/src/types/`
-  - Load skill: [Frontend Development](../skills/frontend-development.md)
+  - Load skill: [Frontend Development](../workflows/frontend-development.md)
 - [ ] Create or update API service functions in `frontend/src/services/`
 - [ ] Build UI components
 - [ ] Connect to state management (Zustand)

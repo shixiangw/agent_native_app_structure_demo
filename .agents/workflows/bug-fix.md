@@ -19,7 +19,7 @@ Systematic workflow for diagnosing, fixing, and verifying bug fixes. Ensures roo
 
 ### 3. Write a Failing Test First
 - [ ] Write a test that reproduces the bug
-  - Load skill: [Testing](../skills/testing.md)
+  - Load skill: [Testing](../workflows/testing.md)
   - Use tool: [Test Runner](../tools/test-runner.md)
 - [ ] Confirm the test fails with current code
 - [ ] This test will verify the fix works
@@ -28,8 +28,8 @@ Systematic workflow for diagnosing, fixing, and verifying bug fixes. Ensures roo
 - [ ] Make the minimal change to fix the bug
 - [ ] Do not refactor unrelated code in the same commit
 - [ ] Follow project conventions:
-  - Load skill: [Frontend Development](../skills/frontend-development.md) (if frontend)
-  - Load skill: [Backend Development](../skills/backend-development.md) (if backend)
+  - Load skill: [Frontend Development](../workflows/frontend-development.md) (if frontend)
+  - Load skill: [Backend Development](../workflows/backend-development.md) (if backend)
 
 ### 5. Verify the Fix
 - [ ] Confirm the new test passes

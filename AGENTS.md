@@ -2,6 +2,10 @@
 
 You are an AI agent working on this project. This document is your primary reference. Always read this file first when starting work, then load additional resources as needed.
 
+## Auto-Load
+
+At the start of every new agent session, automatically load the [Project Context Loader](./.agents/skills/project-context-loader/SKILL.md) skill to understand the project's functionality, architecture, and conventions.
+
 ## Project Context
 
 - **Project Overview**: [README.md](./README.md)
@@ -13,10 +17,7 @@ You are an AI agent working on this project. This document is your primary refer
 ### Skills
 Load the relevant skill when performing specialized tasks:
 
-- **Frontend Development**: [`.agents/skills/frontend-development.md`](./.agents/skills/frontend-development.md) — React, TypeScript, Vite, TailwindCSS
-- **Backend Development**: [`.agents/skills/backend-development.md`](./.agents/skills/backend-development.md) — Node.js, Express, TypeScript, Prisma
-- **Testing**: [`.agents/skills/testing.md`](./.agents/skills/testing.md) — Vitest, React Testing Library, Supertest, Playwright
-- **Database Migration**: [`.agents/skills/database-migration.md`](./.agents/skills/database-migration.md) — Prisma Migrate, schema changes
+- **Project Context Loader**: [`.agents/skills/project-context-loader/SKILL.md`](./.agents/skills/project-context-loader/SKILL.md) — Understand project context at session start
 
 ### Tools
 Use the relevant tool when performing operational tasks:
@@ -31,6 +32,10 @@ Follow the relevant workflow for structured processes:
 - **Feature Development**: [`.agents/workflows/feature-development.md`](./.agents/workflows/feature-development.md) — End-to-end feature implementation
 - **Bug Fix**: [`.agents/workflows/bug-fix.md`](./.agents/workflows/bug-fix.md) — Diagnose, fix, and verify bug fixes
 - **Release**: [`.agents/workflows/release.md`](./.agents/workflows/release.md) — Versioning, building, and deploying
+- **Frontend Development**: [`.agents/workflows/frontend-development.md`](./.agents/workflows/frontend-development.md) — React, TypeScript, Vite, TailwindCSS
+- **Backend Development**: [`.agents/workflows/backend-development.md`](./.agents/workflows/backend-development.md) — Node.js, Express, TypeScript, Prisma
+- **Testing**: [`.agents/workflows/testing.md`](./.agents/workflows/testing.md) — Vitest, React Testing Library, Supertest, Playwright
+- **Database Migration**: [`.agents/workflows/database-migration.md`](./.agents/workflows/database-migration.md) — Prisma Migrate, schema changes
 
 ## Tech Stack
 
